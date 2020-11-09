@@ -684,7 +684,7 @@ main #section-one .view a{
 	/*=====================section-two=================*/
 
 	#section-two{
-		margin-left: 16%;
+		/*margin-left: 16%;*/
 	}
 	#section-two .box-1{
 		background-color: black;
@@ -692,7 +692,7 @@ main #section-one .view a{
 		width: 300px;
 		height: 350px;
 		margin-top: 5%;
-		margin-left: 14%;
+		margin-left: -8%;
 		padding: 20px;
 		/*float: left;*/
 	}
@@ -702,7 +702,7 @@ main #section-one .view a{
 		width: 300px;
 		height: 350px;
 		margin-top: 2%;
-		margin-left: 14%;
+		margin-left: -8%;
 		padding: 20px;
 		/*float: left;*/
 	}
@@ -712,24 +712,51 @@ main #section-one .view a{
 		width: 300px;
 		height: 350px;
 		margin-top: 2%;
-		margin-left: 14%;
+		margin-left: -8%;
 		padding: 20px;
 		/*float: left;*/
 	}
 	/*=======================section-three======================*/
 	#section-three{
-		margin-top: 190%;
+		margin-top: 295%;
 		height: 80vh;
 		width: 80%;
-		margin-left: 15%;
+		margin-left: 9%;
 		border:5px solid gray;
+	}
+	#section-three .about{
+		align-items: center;
+		margin-top: 10%;
+		margin-left: 24%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: white;
+		text-align: center;
+		height: 40px;
+		font-size: 15px;
+		padding: 10px;
+		background-color: gray
 	}
 	#section-three .every h2{
 		text-align: center;
 		color: orangered;
-		font-size: 30px;
+		font-size: 18px;
 
 		
+	}
+	#section-three .every p{
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		color: grey;
+		font-size: 17px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+		margin-left: 24%;
 	}
 	/*==========================section-four==================*/
 	#section-four{
@@ -739,7 +766,7 @@ main #section-one .view a{
 	
 	}
 	#section-four .box{
-			margin-top: 10%;
+			margin-top: 15%;
 			color: #fff;
 			width: 235px;
 			height: 260px;
@@ -748,7 +775,7 @@ main #section-one .view a{
 	}
 	/*=====================================section-five===================*/
 	#section-five{
-		margin-top: 95%;
+		margin-top: 300%;
 		position: relative; 
 		height: 100vh;
 		width: 100%;
@@ -767,7 +794,7 @@ main #section-one .view a{
 		padding-top: 5px;
 		width: 260px;
 		height: 40px;
-		margin-top: -50%;
+		margin-top: -100%;
 		background-color: darkred;
 	  }
 	#section-five h1 {
@@ -776,6 +803,7 @@ main #section-one .view a{
 		font-size: 23px;
 		/*line-height: 0.9;*/
 		text-align: center;
+		margin-top: -50%;
 	  }
 	  #section-five p {
 		position: absolute;
@@ -783,7 +811,7 @@ main #section-one .view a{
 		font-size: 20px;
 		/*line-height: 0.9;*/
 		text-align: center;
-		margin-top: 30%;
+		margin-top: 15%;
 	  }
 	#section-five a{
 		position: absolute;
