@@ -687,13 +687,13 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 		margin-top: 300%;
 		height: 80vh;
 		width: 90%;
-		margin-left: 9%;
+		margin-left: 5%;
 		border:5px solid gray;
 	}
 	#section-three .about{
 		align-items: center;
 		margin-top: 10%;
-		margin-left: 24%;
+		margin-left: 26%;
 		display: block;
 		align-items: center;
 		width: 150px;
@@ -732,7 +732,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	
 	}
 	#section-four .box{
-			margin-top: 15%;
+			margin-top: 18%;
 			color: #fff;
 			width: 235px;
 			height: 260px;
