@@ -222,10 +222,10 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 }
 /*--------------section-three--------*/
 #section-three{
-	margin-top: 13%;
+	margin-top: 22%;
 	height: 80vh;
 	width: 67%;
-	margin-left: 12%;
+	margin-left: 16%;
 	border:5px solid gray;
 }
 #section-three .about{
@@ -684,16 +684,16 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	}
 	/*=======================section-three======================*/
 	#section-three{
-		margin-top: 300%;
+		margin-top: 290%;
 		height: 80vh;
 		width: 90%;
-		margin-left: 5%;
+		margin-left: 3.5%;
 		border:5px solid gray;
 	}
 	#section-three .about{
 		align-items: center;
 		margin-top: 10%;
-		margin-left: 26%;
+		margin-left: 27%;
 		display: block;
 		align-items: center;
 		width: 150px;
@@ -722,7 +722,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	#section-three .every a{
 		align-items: center;
 		margin-top: 5%;
-		margin-left: 24%;
+		margin-left: 27%;
 	}
 	/*==========================section-four==================*/
 	#section-four{
@@ -732,7 +732,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	
 	}
 	#section-four .box{
-			margin-top: 18%;
+			margin-top: 16.5%;
 			color: #fff;
 			width: 235px;
 			height: 260px;
@@ -741,7 +741,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	}
 	/*=====================================section-five===================*/
 	#section-five{
-		margin-top: 250%;
+		margin-top: 220%;
 		position: relative; 
 		height: 100vh;
 		width: 100%;
