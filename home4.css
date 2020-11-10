@@ -222,17 +222,17 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 }
 /*--------------section-three--------*/
 #section-three{
-	margin-top: 20%;
+	margin-top: 13%;
 	height: 80vh;
 	width: 67%;
-	margin-left: 16%;
+	margin-left: 12%;
 	border:5px solid gray;
 }
 #section-three .about{
 	align-items: center;
 	justify-content: center;
 	margin-top: 6%;
-	margin-left: 42%;
+	margin-left: 44%;
     display: block;
 	align-items: center;
 	width: 150px;
@@ -263,7 +263,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 #section-three .every a{
 	align-items: center;
 	margin-top: 5%;
-	margin-left: 42%;
+	margin-left: 44%;
     display: block;
 	align-items: center;
 	width: 150px;
