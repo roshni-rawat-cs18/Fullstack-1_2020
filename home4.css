@@ -3,7 +3,7 @@ body{
 }
 main #section-one{
 
-	height:150vh;
+	height:100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,17 +11,17 @@ main #section-one{
 }
 @keyframes animate{
     0%,100%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('hero10.jpg');
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/1015/464/838/child-children-girl-happy-thumbnail.jpg');
     }
     25%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('hero11.jpg');
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c0.wallpaperflare.com/preview/824/930/463/children-girl-man-homeless.jpg');
     }
     50%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('hero12.jpg');
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/33/110/521/boy-thinking-pensive-thoughtful-thumbnail.jpg');
     }
     75%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('hero14.jpg');
-    }
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/474/152/905/cambodia-village-countryside-kid-thumbnail.jpg');
+	}
 }
 /*main #section-one img{
 	width: 100%;
@@ -49,13 +49,14 @@ main #section-one .text{
 
 }*/
 
+
 main #section-one .caption-holder{
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	color: #fff;
+	color: black;
 	text-align: left;
 }
 
@@ -71,7 +72,7 @@ main #section-one .caption-holder .caption-main .real-caption{
 	/*height: 80%;*/
 	display:left;
 	align-items: left;
-	/*justify-content: space-around;*/
+	justify-content: space-around;
 }
 
 main #section-one .caption-holder .caption-main .caption{
@@ -88,7 +89,7 @@ main #section-one .caption-holder .caption-main .rightArrow{
 	width: 100px;
 	height: 100px;
 	position: absolute;
-	top: 80%;
+	top: 60%;
 	left: 0;
 	cursor: pointer;
 }
@@ -167,49 +168,6 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	background-color: #fff;
 	color: orangered;
 }*/
-
-main #section-one .Donation{
-	width:200px;
-	margin-top: 20%;
-	margin-left: 20%;
-	height:40px;
-	border:2px solid white;
-	box-shadow:10px #fff;
-	text-align: center;
-	padding-top: 3px;
-			
-}
-main #section-one .Donation a{
-	text-decoration: none;
-	color:#fff;
-	font-size: 20px;
-	
-
-}
-main #section-one .Donation a:hover{
-    background-color: red;
-
-}
-main #section-one .view{
-	width:200px;
-	margin-top: -3%;
-	margin-left: 38%;
-	height:40px;
-	border:2px solid white;
-	border-radius: 2px;
-	box-shadow: #fff;
-	text-align: center;
-	padding-top: 3px;
-			
-}
-
-main #section-one .view a{
-	text-decoration: none;
-	color:white;
-	font-size: 20px;
-	
-
-}
 /*----Section Two------*/
 #section-two{
 	margin-left: 16%;
@@ -272,8 +230,9 @@ main #section-one .view a{
 }
 #section-three .about{
 	align-items: center;
-	margin-top: 10%;
-	margin-left: 38%;
+	justify-content: center;
+	margin-top: 6%;
+	margin-left: 42%;
     display: block;
 	align-items: center;
 	width: 150px;
@@ -285,6 +244,7 @@ main #section-one .view a{
 	background-color: gray
 }
 #section-three .every h2{
+	margin-top: 5%;
 	text-align: center;
 	color: orangered;
 	font-size: 40px;
@@ -297,12 +257,13 @@ main #section-one .view a{
 	padding-right: 40px;
 	color: grey;
 	font-size: 20px;
+	margin-top: 3%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #section-three .every a{
 	align-items: center;
 	margin-top: 5%;
-	margin-left: 38%;
+	margin-left: 42%;
     display: block;
 	align-items: center;
 	width: 150px;
@@ -315,7 +276,7 @@ main #section-one .view a{
 }
 /*-------------------------section-four-----------------*/
 #section-four{
-	margin-left: 16%;
+	margin-left: 25%;
 	width: 100%;
 	height: 260px; 
 
@@ -423,8 +384,9 @@ main #section-one .view a{
   .news-title h3{
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
-   
+	font-size: 25px;
+	width: 20%;
+   margin-left: 40%;
     color:white;
     background-color: rgb(124, 123, 123);
   }
@@ -587,13 +549,17 @@ main #section-one .view a{
   /*------------------------make responsive---------------------------*/
   
   @media screen and (max-width: 640px){
+	body{
+		overflow-x: hidden;
+	}
 	  /*---------------------------------section-one---------------*/
 	.real-caption{
 		font-size: 20px;
 	}
 	main #section-one{
 		background: violet;
-		height: 100%;
+		
+		height: 35vh;
 		position: relative;
 		background-size: cover;
         background-repeat: no-repeat;
@@ -718,9 +684,9 @@ main #section-one .view a{
 	}
 	/*=======================section-three======================*/
 	#section-three{
-		margin-top: 295%;
+		margin-top: 300%;
 		height: 80vh;
-		width: 80%;
+		width: 90%;
 		margin-left: 9%;
 		border:5px solid gray;
 	}
@@ -775,7 +741,7 @@ main #section-one .view a{
 	}
 	/*=====================================section-five===================*/
 	#section-five{
-		margin-top: 300%;
+		margin-top: 250%;
 		position: relative; 
 		height: 100vh;
 		width: 100%;
@@ -829,6 +795,16 @@ main #section-one .view a{
 		padding-top: 2px;
 	
 	}
+	/*=============================news-section==========================*/
+	.news-title h3{
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		width: 100%;
+	  margin-left: 1%;
+		color:white;
+		background-color: rgb(124, 123, 123);
+	  }
 	
 
 
