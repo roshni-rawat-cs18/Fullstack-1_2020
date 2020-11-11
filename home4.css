@@ -796,8 +796,8 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 
 }
 /*===========================Responsive For Ipad=================================*/
-@media screen and (max-width: 1120px){
-	/*===================section-one=====================*/
+/*@media screen and (max-width: 1120px){
+	===================section-one=====================*/
 	/*main #section-one .caption-holder{
 		position: absolute;
 		top: 0;
@@ -830,11 +830,11 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 		font-size: 45px;
 	}
 	*/
-	/*===================section-two======================*/
+	/*===================section-two======================
 	#section-two{
 		margin-left: 9%;
 	}
-	/*======================section-three================*/
+	/*======================section-three================
 	#section-three{
 		margin-top: 26%;
 		height: 80vh;
@@ -852,7 +852,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 		margin-left: 40%;
 		
 	}
-	/*=======================section-four====================*/
+	/*=======================section-four====================
 	#section-four{
 		margin-left: 18%;
 		width: 100%;
