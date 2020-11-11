@@ -23,31 +23,11 @@ main #section-one{
         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/474/152/905/cambodia-village-countryside-kid-thumbnail.jpg');
 	}
 }
-/*main #section-one .text{
-	width: 100%;
-	height: 100%;
-	/*margin-right: 50%;*/
-	/*display: left;
-}
-main #section-one .caption-holder{
-    position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	color: #fff;
-	/*text-align: left;
-}*/
 main #section-one .text{
 	width: 100%;
 	height: 100%;
 	margin-right: 50%;
 	display: left;
-	/*position: absolute;
-	top: 0;
-	left: 0;
-	/*background: rosybrown;
-	opacity: 0.6;*/
 }
 main #section-one .caption-holder{
 	position: absolute;
@@ -55,7 +35,7 @@ main #section-one .caption-holder{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	color: black;
+	color: white;
 	text-align: left;
 }
 
