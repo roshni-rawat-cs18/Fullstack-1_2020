@@ -190,7 +190,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	margin-top: 22%;
 	height: 80vh;
 	width: 67%;
-	margin-left: 16%;
+	margin-left: 18%;
 	border:5px solid gray;
 }
 #section-three .about{
@@ -340,7 +340,8 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	background-color: #fff;
 	color: orangered;
 }
-/*======================================news-section====================================*/
+
+
 #news-section{
     padding: 70px 0px;
     background-color: #fff;
@@ -352,9 +353,8 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
   .news-title h3{
     text-align: center;
     font-weight: bold;
-	font-size: 25px;
-	width: 20%;
-   margin-left: 40%;
+    font-size: 25px;
+   
     color:white;
     background-color: rgb(124, 123, 123);
   }
@@ -439,7 +439,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: /*dodgerblue*/orangered;
+    background-color: orangered;
     color: white;
     transform: rotateY(180deg);
   }
@@ -461,7 +461,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     padding: 20px;
     margin-bottom: 30px;
     transition: 0.5s;
-    background-color:/*rgb(214, 209, 209)*/blue;
+    background-color:blue;
     /*border: 1px solid black;*/
   }
   
@@ -470,7 +470,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     margin-top: 40px;
     padding-bottom: 20px;
     text-align: center;
-    color: /*#F7EB70*/#fff;
+    color: #fff;
     font-weight: bold;
   }
   
@@ -493,9 +493,9 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     line-height: 2.5em;
     border-radius: 10px;
     /* text-align: center; */
-	border-width: 0;
-	border: 2px solid white;
-    /*background: #543864*/;
+    border-width: 0;
+    /*background: #543864;*/
+    border: 2px solid white;
     color: #fff;
     font-weight: bold;
     letter-spacing: 4px;
@@ -513,6 +513,68 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     margin-top: 10px;
     transition: 0.5s;
   }  
+
+  /*-=======================Responsive for Laptop HiDPI--============================================*/
+  @media screen and (max-width: 1440px){
+	  /*=======================section-two======================================================*/
+	#section-two{
+		margin-left: 18%;
+	}
+	/*=========================section-three==================================*/
+	#section-three{
+		margin-top: 22%;
+		height: 80vh;
+		width: 67%;
+		margin-left: 16%;
+		border:5px solid gray;
+	}
+	#section-three .about{
+		align-items: center;
+		justify-content: center;
+		margin-top: 6%;
+		margin-left: 42%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: white;
+		text-align: center;
+		height: 40px;
+		font-size: 15px;
+		padding: 10px;
+		background-color: gray
+	}
+	#section-three .every h2{
+		margin-top: 5%;
+		text-align: center;
+		color: orangered;
+		font-size: 40px;
+	
+		
+	}
+	#section-three .every p{
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		color: grey;
+		font-size: 20px;
+		margin-top: 3%;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+		margin-left: 42%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: orangered;
+		text-align: center;
+		height: 20px;
+		font-size: 15px;
+		padding: 10px;
+		text-decoration: none;
+	}
+	 
 
 
   /*===========================Responsive For tablet=================================*/
@@ -630,7 +692,7 @@ main #section-one .caption-holder .caption-main .rightArrow{
 		color: orangered;
 		text-align: center;
 		height: 20px;
-		font-size: 30px;
+		font-size: 35px;
 		padding: 10px;
 		text-decoration: none;
 	}
@@ -646,7 +708,7 @@ main #section-one .caption-holder .caption-main .rightArrow{
 }
 
 
-  /*------------------------make responsive---------------------------*/
+  /*------------------------Responsive For 625px---------------------------*/
   
   @media screen and (max-width: 625px){
 	body{
@@ -740,7 +802,7 @@ main #section-one .caption-holder .caption-main .rightArrow{
 	}
 	/*=======================section-three======================*/
 	#section-three{
-		margin-top: 290%;
+		margin-top: 250%;
 		height: 80vh;
 		width: 100%;
 		margin-left: 0%;
@@ -749,21 +811,21 @@ main #section-one .caption-holder .caption-main .rightArrow{
 	#section-three .about{
 		align-items: center;
 		margin-top: 10%;
-		margin-left: 29%;
+		margin-left: 31%;
 		display: block;
 		align-items: center;
 		width: 150px;
 		color: white;
 		text-align: center;
 		height: 40px;
-		font-size: 15px;
+		font-size: 18px;
 		padding: 10px;
 		background-color: gray
 	}
 	#section-three .every h2{
 		text-align: center;
 		color: orangered;
-		font-size: 18px;
+		font-size: 20px;
 
 		
 	}
@@ -772,13 +834,14 @@ main #section-one .caption-holder .caption-main .rightArrow{
 		padding-left: 40px;
 		padding-right: 40px;
 		color: grey;
-		font-size: 17px;
+		font-size: 18px;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 	#section-three .every a{
 		align-items: center;
 		margin-top: 5%;
-		margin-left: 27%;
+    margin-left: 11%;
+    font-size: 18px;
 	}
 	/*==========================section-four==================*/
 	#section-four{
@@ -794,7 +857,8 @@ main #section-one .caption-holder .caption-main .rightArrow{
 			width: 235px;
 			height: 260px;
 			padding: 20px;
-			float: left;
+      float: left;
+      margin-left: 22%
 	}
 	/*=====================================section-five===================*/
 	#section-five{
@@ -873,3 +937,83 @@ main #section-one .caption-holder .caption-main .rightArrow{
 
 
 }
+/*===================================Responsive for iPhoneX and iPhone6/7/8===================*/
+@media screen and (max-width: 375px){
+	#section-three{
+		margin-top: 280%;
+		height: 70vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+
+}
+/*==================================Responsive for Moto G4 and Galaxy S5========*/
+@media screen and (max-width: 360px){
+	#section-three{
+		margin-top: 285%;
+		height: 85vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+
+}
+/*==============================Responsve for iPhone5Se==============*/
+@media screen and (max-width: 320px){
+	#section-three{
+		margin-top: 320%;
+		height: 85vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+    margin-left: 4%;
+    font-size: 16px;
+	}
+	#section-three .about{
+		align-items: center;
+		margin-top: 10%;
+		margin-left: 28%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: white;
+		text-align: center;
+		height: 40px;
+		font-size: 18px;
+		padding: 10px;
+		background-color: gray
+	}
+	#section-five{
+		margin-top: 250%;
+		position: relative; 
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-image: url("https://c1.wallpaperflare.com/preview/264/421/89/child-children-girl-happy-thumbnail.jpg");
+		background-size: cover;
+		margin-left: 0%
+	} 
+	#section-five .section-five1{
+		position: absolute;
+		color: #ffffff;  
+		font-size: 20px;
+		/*line-height: 0.9;*/
+		text-align: center;
+		padding-top: 5px;
+		width: 260px;
+		height: 40px;
+		margin-top: -100%;
+		background-color: darkred;
+	  }
+
+}
+
+
+  
